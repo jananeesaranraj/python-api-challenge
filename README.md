@@ -85,4 +85,6 @@ Now, use your weather data skills to plan future vacations. Use Jupyter gmaps an
 
 2.Plot the hotels on top of the humidity heatmap, with each pin containing the Hotel Name, City, and Country,
 
+Here is the map shown the cities with maximum temperature between 70 and 80 degrees fahrenheit, wind speed less than 10 mph, zero percent cloudiness.
+
 ![Hotel_list_Heatmap](https://user-images.githubusercontent.com/112193116/197406343-7c745faf-1f48-4a98-9144-660eb7814d37.png)
