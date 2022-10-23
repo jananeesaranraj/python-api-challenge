@@ -12,20 +12,30 @@ The first requirement is to create a series of scatter plots to showcase the fol
 
 ![City_Lat_Max_Temp](https://user-images.githubusercontent.com/112193116/197406197-b9fb8f67-1ac6-4d7f-9723-f363d0558009.png)
 
+* The scatter plot between city latitude and max temperature shows that as the latitude increases from the equator, the max temperature decreases.Latitude is inversely proportional to temperature.
+
 **Humidity (%) vs. Latitude**
+
 ![City_Lat_Humidity](https://user-images.githubusercontent.com/112193116/197406196-5aa24f34-c0cc-49f8-ba2c-38c67a8189a0.png)
+
+* The scatter plot shows that there seems to be no direct relationship between latitude and humidity. Humidity% of most of the cities are found to be above 60%.There are only very limited number of cities located in area with humidity below 20%.
 
 **Cloudiness (%) vs. Latitude**
 
 ![City_Lat_Cloudiness](https://user-images.githubusercontent.com/112193116/197406194-aac8beb7-0837-4ef7-8506-18d003a92fc9.png)
 
+* The scatter plot shows that there is no Correlation seen between the latitude and cloudiness from the above plot.The data points are more concentrated at 100%, 0%, also evenly across all latitudes.
+
 **Wind Speed (mph) vs. Latitude**
 
 ![City_Lat_WindSpeed](https://user-images.githubusercontent.com/112193116/197406199-75bd2e58-1d1e-467f-8881-8320c6701de5.png)
 
+* The scatter plot shows that most cities have wind speed less than 15mph.There is no strong relationship between the wind speed and latitude from the above plot
+
 The second requirement is to compute the linear regression for each relationship. This time, separate the plots into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude):
 
 **Northern Hemisphere: Temperature (F) vs. Latitude**
+
 **Southern Hemisphere: Temperature (F) vs. Latitude**
 
 ![Latitude_Temp_North](https://user-images.githubusercontent.com/112193116/197406355-ac725a32-39a5-4362-adce-e1d06630a35d.png)
@@ -33,6 +43,7 @@ The second requirement is to compute the linear regression for each relationship
 ![Latitude_Temp_South](https://user-images.githubusercontent.com/112193116/197406356-af809a24-527a-4747-8bfc-8274b78ca98d.png)
 
 **Northern Hemisphere: Humidity (%) vs. Latitude**
+
 **Southern Hemisphere: Humidity (%) vs. Latitude**
 
 ![Latitude_Humidity_North](https://user-images.githubusercontent.com/112193116/197406353-283fb26e-7b0c-4923-ac51-856adf474dbe.png)
@@ -40,6 +51,7 @@ The second requirement is to compute the linear regression for each relationship
 ![Latitude_Humidity_south](https://user-images.githubusercontent.com/112193116/197406354-e8eed730-7ef0-4728-b92c-76f91f2bf0f4.png)
 
 **Northern Hemisphere: Cloudiness (%) vs. Latitude**
+
 **Southern Hemisphere: Cloudiness (%) vs. Latitude**
 
 ![Latitude_Cloud_North](https://user-images.githubusercontent.com/112193116/197406351-64cfaa66-868e-464f-a2c2-811a51596a72.png)
@@ -48,6 +60,7 @@ The second requirement is to compute the linear regression for each relationship
 
 
 **Northern Hemisphere: Wind Speed (mph) vs. Latitude**
+
 **Southern Hemisphere: Wind Speed (mph) vs. Latitude**
 
 ![Latitude_Wind_North](https://user-images.githubusercontent.com/112193116/197406357-c5bb7351-0d67-4ce0-a991-00f391278e8f.png)
