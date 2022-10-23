@@ -42,6 +42,9 @@ The second requirement is to compute the linear regression for each relationship
 
 ![Latitude_Temp_South](https://user-images.githubusercontent.com/112193116/197406356-af809a24-527a-4747-8bfc-8274b78ca98d.png)
 
+* In the Northern Hemisphere,the rvalue is 0.7513578529149185. It shows that there is strong Corelation between the Latitude and the Max Temperature.The linear regression line shows that lower the latitude,higher the temperature.
+* In the Southern Hemisphere,the rvalue is 0.4310417236065775.It shows the Correlation between the latitude and Max temperature is Moderate and it is positive Corelation,which means the higher the latitude (closer the equator line) the higher the temperature.
+
 **Northern Hemisphere: Humidity (%) vs. Latitude**
 
 **Southern Hemisphere: Humidity (%) vs. Latitude**
@@ -49,6 +52,8 @@ The second requirement is to compute the linear regression for each relationship
 ![Latitude_Humidity_North](https://user-images.githubusercontent.com/112193116/197406353-283fb26e-7b0c-4923-ac51-856adf474dbe.png)
 
 ![Latitude_Humidity_south](https://user-images.githubusercontent.com/112193116/197406354-e8eed730-7ef0-4728-b92c-76f91f2bf0f4.png)
+
+* As per the above figure,the correlation between latitude and percentage of humidity in both northeren hemisphere and southern hemisphere seems to be very weak as the rvalues are very low.
 
 **Northern Hemisphere: Cloudiness (%) vs. Latitude**
 
@@ -58,6 +63,7 @@ The second requirement is to compute the linear regression for each relationship
 
 ![Latitude_Cloud_South](https://user-images.githubusercontent.com/112193116/197406352-d94db7f4-8c5c-4eb8-bb85-4e6f1afe63ab.png)
 
+* The rvalues for northern and southern hemisphere seems to be low,which means the correlation between the latitude and the cloudiness is very weak. Linear regression lines and the low r-squared values in both graphs indicate that latitude might not be a significant factor that causes cloudiness.
 
 **Northern Hemisphere: Wind Speed (mph) vs. Latitude**
 
@@ -67,6 +73,7 @@ The second requirement is to compute the linear regression for each relationship
 
 ![Latitude_Wind_South](https://user-images.githubusercontent.com/112193116/197406359-36161a76-6c22-4788-95f2-4b6d11d6a896.png)
 
+*The rvalues for northern and southern hemisphere seems to be very low,which means the correlation between the latitude and the wind speed is very weak.The regression lines and rvalues indicate that wind speed could not be predicted by the latitude.
 
 **Part 2: VacationPy**
 Now, use your weather data skills to plan future vacations. Use Jupyter gmaps and the Google Places API for this part of the assignment.
