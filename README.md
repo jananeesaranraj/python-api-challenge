@@ -10,6 +10,8 @@ The first requirement is to create a series of scatter plots to showcase the fol
 
 **Temperature (F) vs. Latitude**
 
+![City_Lat_Max_Temp](https://user-images.githubusercontent.com/112193116/197406197-b9fb8f67-1ac6-4d7f-9723-f363d0558009.png)
+
 **Humidity (%) vs. Latitude**
 
 **Cloudiness (%) vs. Latitude**
