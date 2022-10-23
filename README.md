@@ -76,6 +76,7 @@ The second requirement is to compute the linear regression for each relationship
 *The rvalues for northern and southern hemisphere seems to be very low,which means the correlation between the latitude and the wind speed is very weak.The regression lines and rvalues indicate that wind speed could not be predicted by the latitude.
 
 **Part 2: VacationPy**
+
 Now, use your weather data skills to plan future vacations. Use Jupyter gmaps and the Google Places API for this part of the assignment.
 
 1.Create a heat map that displays the humidity for every city
